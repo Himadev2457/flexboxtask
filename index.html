@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding:0;
+        }
+        body{
+            background-color:hotpink;
+        }
+        h1{
+            color:white;
+            text-align: center;
+            background-color: black;
+            padding: 10px;
+            margin: 0;
+            width: 100%;
+        }
+        .container{
+            width:100vw;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .section{
+            width: 100%;
+            height: 80%;
+            background-color:bisque;
+            border-radius: 9px;
+            margin: 10px;
+            text-align:center;
+            justify-content: center;
+        }
+        .app{
+            width: 100%;
+            height: 50%;
+            margin-bottom: 30px;
+        }
+        .aboutapp{
+            margin-top: 10px;
+            font-weight:10px;
+            padding: 5px;
+            text-align: center;
+        }
+        .image{
+            width: 100%;
+            height: 50%;
+            margin-top: 16px;
+            margin-bottom: 25px;
+        }
+        img{
+            width: 55%;
+            height: 100%;
+            border-radius: 10px;
+        }
+        .description1 .checked{
+            color: green;
+        }
+        .description2 .checked{
+            color: green;
+        }
+        .description3 .checked{
+        color: red;
+        }
+        .description4 .checked{
+            color: green;
+        }
+        .description5 .checked{
+        color: yellow;
+        }
+        .description6 .checked{
+        color: green;
+        }
+        @media screen and (min-width:520px) {
+    .container{
+        display: flex;
+        flex-direction: row;
+        width:100vw;
+        height:100vh;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        align-content: center; 
+    
+    }
+    h1{
+        color:white;
+        text-align: center;
+        background-color: black;
+        padding: 10px;margin: 0;
+        position:fixed;width:100%;padding: 10px;
+        font-size: xx-large;
+    }
+    .section{
+        width:28%;
+        height:35%;
+        text-align: left;
+        padding: 10px; 
+    }
+    .app{
+        width:100%;
+        height:60%;
+        display: flex;
+        align-items: flex-start;
+        margin-bottom:10px;padding: 15px;
+    }
+    .description{
+        width:70%;
+        height:50%;
+        margin-top:20px;
+        font-size: 1rem;
+    }
+    .image{
+        width:50%;
+        height:100%;
+    }
+    img{
+        width:85%;
+        height:85%
+    }
+    .aboutapp{
+    text-align: left;
+    font-weight: normal;
+    margin: 0;
+    padding:0 15px;
+    }
+}
+    </style>
+</head>
+<body>
+    <div class="header"><h1>Play Store</h1></div>
+    <div class="container">
+        <div class="section">
+            <div class="app">
+                <div class="image"><img src="images/zoomato.png"></div>
+                <div class="description1">
+                    <h3>zoomato</h3>
+                    <p>Food delivery</p>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span> 
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked "></span>
+                </div>
+            </div>
+            <div class="aboutapp">
+            <p>Order food online from restaurants and get it delivered</p>
+             </div>
+        </div>
+        <div class="section">
+            <div class="app">
+                <div class="image"><img src="images/uber.webp"></div>
+                <div class="description2">
+                    <h4>Uber</h4>
+                    <p>Transportation</p>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                </div>
+            </div>
+            <div class="aboutapp">
+                <p>Uber provides a convenient, safe, and affordable way to get around cities</p>
+            </div>
+        </div>
+        <div class="section">
+            <div class="app">
+                <div class="image"><img src="images/meesho.webp"></div>
+                <div class="description3">
+                    <h4>Meesho</h4>
+                    <p>Fashown Shopping</p>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star "></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                </div>
+            </div>
+            <div class="aboutapp">
+                <p> buy affordable fashion, beauty, and home decor products</p>
+            </div>
+        </div>
+        <div class="section">
+            <div class="app">
+                <div class="image"><img src="images/Zepto.jpg"></div>
+                <div class="description4">
+                    <h4>Zepto</h4>
+                    <p>Groceries Shopping</p>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked "></span>
+                </div>
+            </div>
+            <div class="aboutapp">
+                <p> Order groceries, fruits, vegetables, and other essentials</p>
+            </div>
+        </div>
+        <div class="section">
+            <div class="app">
+                <div class="image"><img src="images/spotify.jpg"></div>
+                <div class="description5">
+                    <h4>Spotify</h4>
+                    <p>Web Player</p>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                </div>
+            </div>
+            <div class="aboutapp">
+                <p>listen to millions of songs, podcasts, and audiobooks</p>
+            </div>
+        </div>
+        <div class="section">
+            <div class="app">
+                <div class="image"><img src="images/zee5.jpg"></div>
+                <div class="description6">
+                    <h4>ZEE5</h4>
+                    <p>video streaming</p>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star "></span>
+                </div>
+            </div>
+            <div class="aboutapp">
+                <p>Watch a vast library of movies, TV shows, and original content
+</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
